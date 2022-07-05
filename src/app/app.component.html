@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template</title>
+</head>
+<body>
+   <link rel="stylesheet" href="app.component.css">
+   <div class="brk">
+    <h2><img src="assets/img/osRIhA.png" alt="">
+       <div class="p">
+         <br>
+         <br>
+          <p>{{ 'HOME.M2' | translate }}
+            +11111-111-11-11
+            +22222-22-22-22
+           </p>
+              <br>
+              <div class="line1"></div>
+              <p>{{ 'HOME.M1' | translate }}
+              mailmail@gmail.com
+             </p>
+             <br>
+              <div class="line2"></div>
+              <p>
+                {{ 'HOME.Network' | translate}}
+                facebook.com/.../
+                instagram.com/.../
+                twitter.com/.../
+              </p>
+       </div>
+     </h2>
+     <h3>{{ 'HOME.N4' | translate }}<div class="id">{{ 'HOME.N3' | translate }}</div>
+       <div class="star">
+          <div class="p2">
+             {{ 'HOME.N5' | translate }}
+             <p>{{ 'HOME.N2' | translate }}</p> 
+             <p>{{ 'HOME.N1' | translate }}</p>
+          </div>
+       </div>
+    </h3>
+    <div class="objective">
+       {{ 'HOME.Objective' | translate}}
+       <div class="container1">
+         {{ 'HOME.S1' | translate }} <br>
+         {{ 'HOME.S2' | translate }}<br>
+         {{ 'HOME.S3' | translate }}<br>
+         {{ 'HOME.S4' | translate }} <br>
+         {{ 'HOME.S5' | translate }} <br>
+         <div class="s">{{ 'HOME.S' | translate }}</div> 
+         <br>
+      </div>
+      <div class="pay">
+         {{ 'HOME.Pay' | translate}} <b>{{ 'HOME.Dollar' | translate }}</b> 
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="employment">
+    {{ 'HOME.Em' | translate }}
+    <div class="container2">
+       {{ 'HOME.Container2' | translate }} <br>
+       <div class="low">{{ 'HOME.Low' | translate }}</div> 
+    </div> 
+    <br>
+    <div class="rent">
+      {{ 'HOME.Rent' | translate }}
+       <div class="container3">
+         {{ 'HOME.Text1' | translate }} <br>
+         {{ 'HOME.Text2' | translate }} <br>
+         {{ 'HOME.Text3' | translate }} <br>
+         {{ 'HOME.Text4' | translate }}
+       </div>
+       <br>
+       <br>
+       <div class="doc">
+          {{'HOME.Doc' | translate }}
+           <div class="upon">
+             {{ 'HOME.Upon' | translate }}
+              <ul>
+                <li>{{ 'HOME.l1' | translate }}</li>
+                <li>{{ 'HOME.l2' | translate }}</li>
+              </ul>
+            </div>
+      </div>
+      <div class="language-picker-area">
+         <div class="picker-label">{{ 'HOME.Choose_language' | translate }}</div>
+            <select (change)="selectLanguage($event)" class="language-picker">
+               <option value="en-US">English</option>
+               <option value="fr-FR">French</option>
+            </select>
+            <div class="throw">{{ 'HOME.T8' | translate</div>
+         </div>
+      </div>
+      </div>
+   </div>
+
+   
+  
